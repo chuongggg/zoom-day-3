@@ -1,3 +1,52 @@
+body{
+
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  min-height: 100vh;       
+  background-color: #f5e4ca; 
+}
+.content{
+  max-width: 950px; 
+  background-color: white;
+  padding: 20px;
+  border: 1px solid black;
+}
+.content h3{
+  margin-bottom: 7px;
+}
 h1{
-    color:orange;
+  margin-top: 36px;
+}
+.heading{
+  text-align: center;
+  margin-bottom: 27px;
+}
+.content > h3::after{
+  margin-top: 4px;
+  display: block;
+  content:"" ;
+  width: 100%;
+  height: 2px;
+  background-color:black
+}
+.job-tittle{
+  display: flex;
+}
+.job-tittle h3,p{
+  
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.paragraph{
+  font-weight: bolder;
+  font-size: 15px;
+}
+.list-p{
+  line-height: 20px;
+  margin-bottom: 10px;
 }
